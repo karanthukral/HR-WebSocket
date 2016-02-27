@@ -4,10 +4,10 @@ require 'redis'
 require 'json'
 require 'erb'
 
-module ChatDemo
-  class ChatBackend
+module HRDemo
+  class HRBackend
     KEEPALIVE_TIME = 15 # in seconds
-    CHANNEL        = "chat-demo"
+    CHANNEL        = "hr-data"
 
     def initialize(app)
       @app     = app

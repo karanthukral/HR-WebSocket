@@ -1,6 +1,6 @@
 require './app'
 require './middlewares/chat_backend'
 
-use ChatDemo::ChatBackend
+use HRDemo::HRBackend
 
-run ChatDemo::App
+run HRDemo::App
