@@ -1,5 +1,5 @@
 require './app'
-require './middlewares/chat_backend'
+require './middlewares/hr_backend'
 
 use HRDemo::HRBackend
 
